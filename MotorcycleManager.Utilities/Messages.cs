@@ -1,6 +1,6 @@
 ﻿namespace MotorcycleManager.Utilities
 {
-    public class Class1
+    public class Messages
     {
 
     }
