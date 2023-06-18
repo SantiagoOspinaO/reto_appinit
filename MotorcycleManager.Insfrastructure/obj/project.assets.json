@@ -1399,6 +1399,46 @@
             "rid": "win"
           }
         }
+      },
+      "MotorcycleManager.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "EntityFramework": "6.4.4",
+          "Microsoft.AspNetCore.Cors": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "7.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.7",
+          "NLog": "5.2.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/MotorcycleManager.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MotorcycleManager.Domain.dll": {}
+        }
+      },
+      "MotorcycleManager.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "EntityFramework": "6.4.4",
+          "Microsoft.AspNetCore.Cors": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "7.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.7",
+          "NLog": "5.2.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/MotorcycleManager.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MotorcycleManager.Utilities.dll": {}
+        }
       }
     }
   },
@@ -4372,6 +4412,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MotorcycleManager.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MotorcycleManager.Domain/MotorcycleManager.Domain.csproj",
+      "msbuildProject": "../MotorcycleManager.Domain/MotorcycleManager.Domain.csproj"
+    },
+    "MotorcycleManager.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../MotorcycleManager.Utilities/MotorcycleManager.Utilities.csproj",
+      "msbuildProject": "../MotorcycleManager.Utilities/MotorcycleManager.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4381,6 +4431,8 @@
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 7.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.7",
+      "MotorcycleManager.Domain >= 1.0.0",
+      "MotorcycleManager.Utilities >= 1.0.0",
       "NLog >= 5.2.0",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -4412,7 +4464,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Usuario\\source\\repos\\MotorcycleManager\\MotorcycleManager.Domain\\MotorcycleManager.Domain.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\MotorcycleManager\\MotorcycleManager.Domain\\MotorcycleManager.Domain.csproj"
+            },
+            "C:\\Users\\Usuario\\source\\repos\\MotorcycleManager\\MotorcycleManager.Utilities\\MotorcycleManager.Utilities.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\MotorcycleManager\\MotorcycleManager.Utilities\\MotorcycleManager.Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
