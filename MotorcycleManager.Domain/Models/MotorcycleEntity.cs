@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MotorcycleManager.Domain.Models
 {
-    internal class MotorcycleEntity
+    public class MotorcycleEntity
     {
-        public Guid MotorcycleId { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int MotorcycleId { get; set; }
         public string Brand { get; set; }
         public string Model { get; set; }
-        public int Year { get; set; }
-        public decimal Price { get; set; }
     }
 }

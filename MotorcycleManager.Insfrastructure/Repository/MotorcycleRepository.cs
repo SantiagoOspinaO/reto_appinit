@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MotorcycleManager.Domain.Abstraction;
 using MotorcycleManager.Domain.Models;
-using MotorcycleManager.Infrastructure.Repository.Impl;
 using MotorcycleManager.Infrastructure.Context;
 using MotorcycleManager.Utilities;
 using MotorcycleManager.Utilities.ExceptionHandler;
 using MotorcycleManager.Utilities.Logger;
+using System.Data.Entity;
 
 namespace MotorcycleManager.Infrastructure.Repository
 {
@@ -34,7 +29,7 @@ namespace MotorcycleManager.Infrastructure.Repository
             catch (Exception ex)
             {
                 _logger.LogError($"ERROR: {ex.Message}");
-                throw new ExceptionHandler(string.Format(Messages.ID_EXIST, motorcycle.MotorcycleId));
+                throw new ExceptionHandler(string.Format(Messages.IS_EMPTY, motorcycle.MotorcycleId));
             }
         }
 
@@ -47,11 +42,11 @@ namespace MotorcycleManager.Infrastructure.Repository
             catch (Exception ex)
             {
                 _logger.LogError($"ERROR: {ex.Message}");
-                throw new ExceptionHandler(string.Format(Messages.ID_EXIST));
+                throw new ExceptionHandler(string.Format(Messages.IS_EMPTY));
             }
         }
 
-        public async Task<MotorcycleEntity> GetMotorcycleById(Guid id)
+        public async Task<MotorcycleEntity> GetMotorcycleById(int id)
         {
             try
             {
@@ -60,7 +55,7 @@ namespace MotorcycleManager.Infrastructure.Repository
             catch (Exception ex)
             {
                 _logger.LogError($"ERROR: {ex.Message}");
-                throw new ExceptionHandler(string.Format(Messages.ID_EXIST));
+                throw new ExceptionHandler(string.Format(Messages.NOT_ID_EXISTS));
             }
         }
 
@@ -74,11 +69,11 @@ namespace MotorcycleManager.Infrastructure.Repository
             catch (Exception ex)
             {
                 _logger.LogError($"ERROR: {ex.Message}");
-                throw new ExceptionHandler(string.Format(Messages.ID_EXIST));
+                throw new ExceptionHandler(string.Format(Messages.ERROR_UPDATE));
             }
         }
 
-        public async Task DeleteMotorcycle(Guid id)
+        public async Task DeleteMotorcycle(int id)
         {
             try
             {
@@ -92,7 +87,7 @@ namespace MotorcycleManager.Infrastructure.Repository
             catch (Exception ex)
             {
                 _logger.LogError($"ERROR: {ex.Message}");
-                throw new ExceptionHandler(string.Format(Messages.ID_EXIST));
+                throw new ExceptionHandler(string.Format(Messages.ERROR_DELETE));
             }
         }
     }

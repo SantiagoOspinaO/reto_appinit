@@ -1,0 +1,14 @@
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\bin\Debug\net6.0\MotorcycleManager.Utilities.deps.json
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\bin\Debug\net6.0\MotorcycleManager.Utilities.runtimeconfig.json
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\bin\Debug\net6.0\MotorcycleManager.Utilities.dll
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\bin\Debug\net6.0\MotorcycleManager.Utilities.pdb
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\MotorcycleManager.Utilities.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\MotorcycleManager.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\MotorcycleManager.Utilities.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\MotorcycleManager.Utilities.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\MotorcycleManager.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\MotorcycleManager.Utilities.dll
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\refint\MotorcycleManager.Utilities.dll
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\MotorcycleManager.Utilities.pdb
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\MotorcycleManager.Utilities.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Utilities\obj\Debug\net6.0\ref\MotorcycleManager.Utilities.dll

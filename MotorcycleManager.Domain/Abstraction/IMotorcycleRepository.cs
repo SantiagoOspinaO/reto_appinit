@@ -1,16 +1,13 @@
 ﻿using MotorcycleManager.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MotorcycleManager.Domain.Abstraction
 {
-    internal interface IMotorcycleRepository
+    public interface IMotorcycleRepository
     {
-        Task<IEnumerable<MotorcycleEntity>> GetMotorcycles();
-        Task<IEnumerable<MotorcycleEntity>> GetMotorcycleById(int id);
         Task CreateMotorcycle(MotorcycleEntity motorcycle);
+        Task<IEnumerable<MotorcycleEntity>> GetAllMotorcycles();
+        Task<MotorcycleEntity> GetMotorcycleById(int id);
+        Task UpdateMotorcycle(MotorcycleEntity motorcycle);
+        Task DeleteMotorcycle(int id);
     }
 }

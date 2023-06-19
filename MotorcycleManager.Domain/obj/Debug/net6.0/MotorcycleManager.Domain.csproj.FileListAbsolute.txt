@@ -1,0 +1,17 @@
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\bin\Debug\net6.0\MotorcycleManager.Domain.deps.json
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\bin\Debug\net6.0\MotorcycleManager.Domain.runtimeconfig.json
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\bin\Debug\net6.0\MotorcycleManager.Domain.dll
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\bin\Debug\net6.0\MotorcycleManager.Domain.pdb
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\bin\Debug\net6.0\MotorcycleManager.Utilities.dll
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\bin\Debug\net6.0\MotorcycleManager.Utilities.pdb
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.csproj.CopyComplete
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.dll
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\refint\MotorcycleManager.Domain.dll
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.pdb
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\MotorcycleManager.Domain.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\MotorcycleManager\MotorcycleManager.Domain\obj\Debug\net6.0\ref\MotorcycleManager.Domain.dll
