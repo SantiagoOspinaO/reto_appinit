@@ -65,3 +65,7 @@
 2023-06-19 18:18:27.2544 INFO Start: Get All Motorcycles
 2023-06-19 18:18:27.3018 ERROR ERROR: The source IQueryable doesn't implement IDbAsyncEnumerable<MotorcycleManager.Domain.Models.MotorcycleEntity>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
 2023-06-19 18:18:27.3762 ERROR Error in GetAllMotorcycles: No records in the database
+2023-06-19 18:24:00.2458 INFO Start Get All Motorcycle
+2023-06-19 18:24:00.3605 INFO Start: Get All Motorcycles
+2023-06-19 18:24:00.8574 ERROR ERROR: The source IQueryable doesn't implement IDbAsyncEnumerable<MotorcycleManager.Domain.Models.MotorcycleEntity>. Only sources that implement IDbAsyncEnumerable can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+2023-06-19 18:24:01.5082 ERROR Error in GetAllMotorcycles: No records in the database

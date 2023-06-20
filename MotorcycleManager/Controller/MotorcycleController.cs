@@ -2,8 +2,6 @@
 using MotorcycleManager.Application.Motorcycles.Request;
 using MotorcycleManager.Application.Motorcycles.Response;
 using MotorcycleManager.Application.Service.Impl;
-using MotorcycleManager.Domain.Models;
-using MotorcycleManager.Domain.Service.Impl;
 using MotorcycleManager.Utilities;
 using MotorcycleManager.Utilities.ExceptionHandler;
 using MotorcycleManager.Utilities.Logger;
@@ -15,13 +13,11 @@ namespace MotorcycleManager.Api.Controller
     public class MotorcycleController : ControllerBase
     {
         private readonly IMotorcycleApplicationService _motorcycleService;
-        private readonly IMotorcycleDomainService _domainService;
-        private readonly ILoggerManager  _logger;
+        private readonly ILoggerManager _logger;
 
-        public MotorcycleController(IMotorcycleApplicationService motorcycleService, IMotorcycleDomainService domainService,ILoggerManager logger)
+        public MotorcycleController(IMotorcycleApplicationService motorcycleService, ILoggerManager logger)
         {
             _motorcycleService = motorcycleService;
-            _domainService = domainService;
             _logger = logger;
         }
 
@@ -44,35 +40,17 @@ namespace MotorcycleManager.Api.Controller
         }
 
         [HttpGet]
-        public async Task<ActionResult<IList<MotorcycleEntity>>> GetAllMotorcycles()
+        public async Task<ActionResult<IList<MotorcycleResponse>>> GetAllMotorcycles()
         {
-            //try
-            //{
-            //    _logger.LogInfo("Start Get All Motorcycle");
-            //    var response = await _motorcycleService.GetAllMotorcycles();
-            //    return Ok(response);
-            //    //return response != null && response.Count() > 0 ? Ok(response) : NotFound(Messages.IS_EMPTY);
-            //}
-            //catch (Exception ex)
-            //{
-            //    return StatusCode(500, ex.ToString());
-            //}
-
             try
             {
                 _logger.LogInfo("Start Get All Motorcycle");
-                var response = await _domainService.GetAllMotorcycles();
-                if (response.Count() == 0)
-                {
-                    return NotFound("No motorcycle records found.");
-                }
-                
-                return Ok(response);
+                var response = await _motorcycleService.GetAllMotorcycles();
+                return response != null && response.Count() > 0 ? Ok(response) : NotFound(Messages.IS_EMPTY);
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Error in GetAllMotorcycles: {ex.Message}");
-                return StatusCode(500, $"An error occurred while retrieving the motorcycles. {ex.Message}");
+                return StatusCode(500, ex.ToString());
             }
         }
 
